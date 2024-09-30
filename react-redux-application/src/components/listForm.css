@@ -1,0 +1,39 @@
+.list-info {
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    padding: 20px 5px 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.scroll {
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.title-info {
+    display: flex;
+    font-weight: 600;
+    position: relative;
+}
+
+.title-info p {
+    margin: 0;
+}
+
+.title-info span {
+    margin-left: 5px;
+}
+
+.delete button {
+    font-size: 16px;
+    color: red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.delete button:hover {
+    cursor: pointer;
+}

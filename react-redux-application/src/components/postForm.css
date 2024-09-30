@@ -1,0 +1,68 @@
+.add-info {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.title-addnew {
+    text-align: center;
+}
+
+.title-addnew p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.add-title label {
+    font-size: 16px;
+    text-align: center;
+}
+
+.add-title input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+}
+
+.add-title input:focus-visible {
+    outline: none;
+}
+
+.add-title {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.add-body {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 9px;
+}
+
+.add-body label {
+    margin-bottom: 5px;
+}
+
+.add-body textarea {
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+    padding: 5px;
+}
+
+.add-body textarea:focus-visible {
+    outline: none;
+}
+
+.add-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.add-button button {
+    padding: 5px 10px;
+}
+
+.add-button button:hover {
+    cursor: pointer;
+}
